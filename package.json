@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"start": "concurrently \"yarn dev\" \"yarn server\"",
+		"start": "yarn dev & yarn server",
 		"preview": "vite preview",
 		"scrape": " node src/lib/server/scraper/scraper.js",
 		"server": "yarn tsx src/lib/server/api",
